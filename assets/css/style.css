@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+h2 {
+  color: #f42;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 10px 0;
+}
+
 .main-section {
   background-color: #ccc;
 }
@@ -77,6 +85,13 @@ main {
   padding: 5rem;
 }
 
+.latest-news h2 {
+  color: #f42;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
 .latest-news-Grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -85,11 +100,21 @@ main {
 
 .latest-news-Grid img {
   width: 100%;
+  cursor: pointer;
+  opacity: 1;
 }
 
 .latest-news-Grid figcaption {
   font-weight: 700;
   line-height: 1.25;
+  cursor: pointer;
+}
+
+.latest-news-Grid figcaption:hover {
+  font-weight: 700;
+  line-height: 1.25;
+  color: #f42;
+  text-decoration: underline;
 }
 
 .latest-news-col_1 ul {
@@ -104,3 +129,72 @@ main {
 }
 
 /* Latest Details */
+
+.latest-details {
+  padding: 5rem;
+}
+
+.latest-detailsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.latest-detailsGrid img {
+  width: 100%;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.latest-detailsGrid figcaption {
+  font-weight: 700;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.latest-detailsGrid figcaption:hover {
+  font-weight: 700;
+  line-height: 1.25;
+  color: #f42;
+  text-decoration: underline;
+}
+
+.grid-col-1-footer {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 4px;
+  vertical-align: baseline;
+}
+
+.latest-detailsGrid-col-1 {
+  position: relative;
+}
+
+.img-flag {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #000;
+  display: block;
+  height: 80px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  z-index: 10;
+}
+
+.img-flag p {
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+  transform: rotate(45deg);
+}
