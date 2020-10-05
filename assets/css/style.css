@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header .top-nav {
+  background-color: #000;
+  color: #ccc;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header li a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+}
+
+.custom-nav {
+}
