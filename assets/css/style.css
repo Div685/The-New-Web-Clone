@@ -5,7 +5,7 @@
 }
 
 .main-section {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 
 .header {
@@ -28,7 +28,6 @@
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
-  
 }
 
 .main-navbar li {
@@ -44,9 +43,9 @@
   border-left: 0.5px solid #ccc;
   width: 50px;
   height: 50px;
-  background: url('https://api.iconify.design/icons8:search.svg') no-repeat center center / contain;
+  background: url("https://api.iconify.design/icons8:search.svg") no-repeat
+    center center / contain;
   background-size: 50%;
-
 }
 
 .top-nav a {
@@ -69,4 +68,39 @@ ul li {
 
 main {
   display: flex;
+  flex-direction: column;
 }
+
+/* Latest News section */
+
+.latest-news {
+  padding: 5rem;
+}
+
+.latest-news-Grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.latest-news-Grid img {
+  width: 100%;
+}
+
+.latest-news-Grid figcaption {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.latest-news-col_1 ul {
+  display: flex;
+  color: #aaa;
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.latest-news-col_1 ul li {
+  padding: 0 5px 0 0;
+}
+
+/* Latest Details */
