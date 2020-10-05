@@ -4,11 +4,21 @@
   box-sizing: border-box;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
 .header .top-nav {
   background-color: #000;
   color: #ccc;
   justify-content: space-between;
   display: flex;
+}
+
+.top-navRight ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header li a {
@@ -18,13 +28,7 @@
 ul li {
   list-style-type: none;
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-.main {
-  display: flex;
-}
 
-.custom-nav {
+main {
+  display: flex;
 }
