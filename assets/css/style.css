@@ -71,12 +71,15 @@ h2 {
   text-decoration: none;
 }
 
-ul li {
+.header ul li {
   list-style-type: none;
 }
 
+/* Banner Section */
+
 .hero-section {
   display: flex;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
 }
 
 .hero-section .hero {
@@ -143,6 +146,59 @@ ul li {
 main {
   display: flex;
   flex-direction: column;
+}
+
+/* Article Section  */
+
+.article-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 5rem;
+}
+
+.article-fig-img {
+  background: url(/assets/img/saly_image1.jpg) no-repeat;
+  height: 250px;
+}
+
+.article-fig-footer {
+  display: flex;
+  margin: 3px 0 0 0;
+  background-color: #fff4f2;
+}
+
+.article-fig-footer .title {
+  flex: 3;
+  padding: 12px;
+}
+
+.article-fig-footer .title h4 {
+  color: #f42;
+}
+
+.article-title-footer {
+  color: #f42;
+}
+
+.article-fig-footer .title-img {
+  flex: 1;
+}
+
+.article-fig-footer img {
+  width: 96px;
+  height: 96px;
+}
+
+.article-section ul {
+  padding: 18px;
+  color: #f42;
+}
+
+.article-section ul li {
+  color: #aaa;
+  padding: 3px;
+  border-bottom: 0.2px solid #ccc;
 }
 
 /* Latest News section */
