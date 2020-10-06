@@ -302,13 +302,13 @@ main {
   opacity: 1;
 }
 
-.latest-news-Grid figcaption {
+.latest-news-Grid p {
   font-weight: 700;
   line-height: 1.25;
   cursor: pointer;
 }
 
-.latest-news-Grid figcaption:hover {
+.latest-news-Grid p:hover {
   font-weight: 700;
   line-height: 1.25;
   color: #f42;
@@ -320,6 +320,7 @@ main {
   color: #aaa;
   font-size: 12px;
   padding-top: 4px;
+  list-style: none;
 }
 
 .latest-news-col_1 ul li {
@@ -344,13 +345,16 @@ main {
   cursor: pointer;
 }
 
-.latest-detailsGrid figcaption {
+.latest-detailsGrid .title {
   font-weight: 700;
   line-height: 1.25;
   cursor: pointer;
+  color: #000;
+  font-size: 1.4rem;
+  font-family: Rajdhani, "Sans Serif";
 }
 
-.latest-detailsGrid figcaption:hover {
+.latest-detailsGrid .title:hover {
   font-weight: 700;
   line-height: 1.25;
   color: #f42;
@@ -407,7 +411,6 @@ main {
 .footer-top .footer-topText li {
   display: inline-block;
   padding-top: 20px;
-
 }
 
 .footer-top i {
@@ -442,6 +445,85 @@ main {
   height: 15px;
 }
 
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
 .custom-footer {
   margin-top: 30px;
+}
+
+/* Responsive Area */
+
+/* width less than 768 */
+
+@media only screen and (max-width: 768px) {
+  /* Latest News Section */
+
+  .latest-news {
+    padding: 2rem;
+  }
+
+  .latest-news-Grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-news-Grid img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .latest-news-col_1 {
+    display: flex;
+  }
+
+  .latest-news-col-2 {
+    margin-left: 10px;
+  }
+
+  .latest-news-col-2 p {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  /* Latest Details */
+  .latest-details {
+    padding: 2rem;
+  }
+
+  .latest-detailsGrid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-detailsGrid-col-1 {
+    display: flex;
+  }
+
+  .latest-detailsGrid-col-1 img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .grid-col-1-footer {
+    margin: 0 0 0 10px;
+  }
+
+  .img-flag {
+    display: none;
+  }
+
+  /* wrapper */
+
+  .article-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  /* Footer */
 }
