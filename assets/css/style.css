@@ -463,6 +463,44 @@ main {
 @media only screen and (max-width: 768px) {
   /* Latest News Section */
 
+.hero-section .hero {
+  width: 30%;
+  }
+
+.hero-header-type {
+  top: 20rem;
+  position: absolute;
+}
+
+.hero-header-type ul li {
+  display: inline-block;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.hero-header-type a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.hero-right-section {
+  flex: 2;
+}
+
+.hero img {
+  width: 450px;
+  height: 350px;
+  position: relative;
+  top: -110px;
+}
+
+.hero h1 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: Rajdhani;
+}
+
   .latest-news {
     padding: 2rem;
   }
