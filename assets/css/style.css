@@ -12,6 +12,10 @@ h2 {
   margin: 0 0 10px 0;
 }
 
+.icon {
+  font-size: 16px;
+}
+
 .main-section {
   background-color: #ccc;
 }
@@ -84,12 +88,41 @@ h2 {
 
 .hero-section .hero {
   width: 100%;
-  background: url(/assets/img/car.png) center no-repeat;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.666),
+      black
+    ),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+    url(/assets/img/car.png) center no-repeat;
   background-size: cover;
   color: #fff;
   height: 510px;
   padding: 15px;
   margin: 10px;
+  flex: 4;
+  position: relative;
+}
+
+.hero-header-type {
+  top: 20rem;
+  position: absolute;
+}
+
+.hero-header-type ul li {
+  display: inline-block;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.hero-header-type a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.hero-right-section {
+  flex: 2;
 }
 
 .hero img {
@@ -102,12 +135,21 @@ h2 {
 .hero h1 a {
   color: #fff;
   text-decoration: none;
+  font-size: 50px;
+  font-family: Rajdhani;
 }
 
 /* .hero-section .side { */
 
 .hero-sectionRight-top {
-  background: url(/assets/img/tnw2020-feature.jpg) center no-repeat;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.666),
+      black
+    ),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+    url(/assets/img/tnw2020-feature.jpg) center no-repeat;
   background-size: cover;
   height: 250px;
   padding: 25px;
@@ -116,7 +158,14 @@ h2 {
 }
 
 .hero-sectionRight-bottom {
-  background: url(/assets/img/mixed-reality.png) center no-repeat;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.666),
+      black
+    ),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+    url(/assets/img/tnw2020-feature.jpg) center no-repeat;
   background-size: cover;
   height: 250px;
   padding: 25px;
@@ -126,12 +175,12 @@ h2 {
 
 .right-top-header {
   top: 180px;
-  position: relative;
+  position: absolute;
 }
 
 .right-bottom-header {
   top: 150px;
-  position: relative;
+  position: absolute;
 }
 
 .right-top-header h2 {
@@ -280,7 +329,7 @@ main {
 /* Latest Details */
 
 .latest-details {
-  padding: 5rem;
+  padding: 0 5rem;
 }
 
 .latest-detailsGrid {
