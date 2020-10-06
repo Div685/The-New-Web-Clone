@@ -158,8 +158,18 @@ main {
 }
 
 .article-fig-img {
-  background: url(/assets/img/saly_image1.jpg) no-repeat;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.666),
+      black
+    ),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+    url(/assets/img/saly_image1.jpg) no-repeat;
   height: 250px;
+  color: #fff;
+  padding: 15px;
+  position: relative;
 }
 
 .article-fig-footer {
@@ -196,9 +206,26 @@ main {
 }
 
 .article-section ul li {
-  color: #aaa;
+  list-style: #f42;
+  padding: 5px 0;
+  border-bottom: 0.1px solid #ccc;
+}
+
+.fig-header {
+  position: relative;
+  top: 150px;
+}
+
+.fig-header h3 {
+  color: #fff;
+  font-weight: 900;
+}
+
+.article-section ul li a {
+  color: #5b5b5b;
+  text-decoration: none;
+  list-style: #f42;
   padding: 3px;
-  border-bottom: 0.2px solid #ccc;
 }
 
 /* Latest News section */
