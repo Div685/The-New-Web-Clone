@@ -21,6 +21,7 @@ h2 {
   flex-direction: column;
   background-color: #fff;
   color: #ccc;
+  border-bottom: 3px solid #ccc;
 }
 
 .header .top-nav {
@@ -74,6 +75,71 @@ ul li {
   list-style-type: none;
 }
 
+.hero-section {
+  display: flex;
+}
+
+.hero-section .hero {
+  width: 100%;
+  background: url(/assets/img/car.png) center no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 510px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.hero img {
+  width: 450px;
+  height: 350px;
+  position: relative;
+  top: -110px;
+}
+
+.hero h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .hero-section .side { */
+
+.hero-sectionRight-top {
+  background: url(/assets/img/tnw2020-feature.jpg) center no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 25px;
+  margin: 10px 10px 0 0;
+  position: relative;
+}
+
+.hero-sectionRight-bottom {
+  background: url(/assets/img/mixed-reality.png) center no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 25px;
+  margin: 10px 10px 0 0;
+  position: relative;
+}
+
+.right-top-header {
+  top: 180px;
+  position: relative;
+}
+
+.right-bottom-header {
+  top: 150px;
+  position: relative;
+}
+
+.right-top-header h2 {
+  color: #fff;
+  bottom: 0;
+}
+
+.right-bottom-header h2 {
+  color: #fff;
+  bottom: 0;
+}
 main {
   display: flex;
   flex-direction: column;
