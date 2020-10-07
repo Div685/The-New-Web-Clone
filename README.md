@@ -2,10 +2,6 @@
 
 # The-New-Web-Clone
 
-The New Web (TMW) clone using HTML, CSS
-
-# The Next Web
-
 This project is about cloning/building of [The Next web](https://www.thenextweb.com/) website using HTML5/CSS3
 
 ![screenshot](./assets/img/TNWscreenshot.png)
