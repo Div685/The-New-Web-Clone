@@ -30,7 +30,9 @@
     flex-direction: column;
     background-color: #fff;
     color: #ccc;
-    border-bottom: 3px solid #ccc;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
   }
 
   .header .ms-navbar .top-nav {
@@ -90,6 +92,7 @@
   .hero-section {
     display: flex;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+    margin-top: 90px;
   }
 
   .hero-section .hero {
@@ -221,7 +224,7 @@
         black
       ),
       linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
-      url(/assets/img/saly_image1.jpg) no-repeat;
+      url(/assets/img/saly_image1.jpg) center no-repeat;
     height: 250px;
     color: #fff;
     padding: 15px;
@@ -484,20 +487,13 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* Latest News Section */
-  body {
-    background-color: #f42;
-  }
 
   .sm-navbar {
     display: none;
   }
 
-  .hero-section .hero {
-    width: 30%;
-  }
-
   .hero-header-type {
-    top: 20rem;
+    top: 5rem;
     position: absolute;
   }
 
@@ -535,13 +531,14 @@
   }
 
   .latest-news-Grid {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
   }
 
   .latest-news-Grid img {
-    width: 75px;
-    height: 75px;
+    width: 100%;
+    height: 100%;
   }
 
   .latest-news .latest-news-col_1 {
@@ -591,6 +588,96 @@
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
+  }
+
+  .article-fig-img {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/saly_image1.jpg) center no-repeat;
+    height: 250px;
+    background-size: cover;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+  }
+
+  main {
+    margin-top: 0;
+  }
+
+
+
+  .header .ms-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #ccc;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .header .ms-navbar .top-nav {
+    background-color: #000;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 20px;
+    z-index: 5;
+  }
+
+  .ms-navbar .main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  .ms-navbar .main-navbar li {
+    display: inline-block;
+    padding: 10px 0 10px 30px;
+  }
+
+  .main-navbar a {
+    color: #ccc;
+    font-size: 12px;
+  }
+
+  .search {
+    border-left: 0.5px solid #ccc;
+    width: 50px;
+    height: 50px;
+    background: url("https://api.iconify.design/icons8:search.svg") no-repeat
+      center center / contain;
+    background-size: 50%;
+  }
+
+  .top-nav a {
+    padding: 0 0 0 10px;
+    color: #ccc;
+  }
+
+  .top-navRight ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header li a {
+    text-decoration: none;
+  }
+
+  .hero-section .hero {
+    margin-top: 60px;
+  }
+
+  .header ul li {
+    list-style-type: none;
   }
 
   /* Footer */
