@@ -71,8 +71,7 @@ main {
 }
 
 .hero-section .hero {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.666),
@@ -126,7 +125,8 @@ main {
 
 .article-fig-footer img {
   width: 100%;
-  height: 96px;
+  height: 100%;
+  background-size: cover;
 }
 
 .latest-detailsGrid-col-1 img {
@@ -146,8 +146,7 @@ main {
 /* Banner Side bar  */
 
 .hero-sectionRight-top {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.666),
@@ -163,8 +162,7 @@ main {
 }
 
 .hero-sectionRight-bottom {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.666),
@@ -284,8 +282,7 @@ main {
 }
 
 .article-fig-img {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.666),
@@ -313,7 +310,7 @@ main {
 
 .article-fig-footer .title h4 {
   color: #f42;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .article-title-footer {
@@ -397,6 +394,8 @@ main {
 
 .footer-bottom {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   background-color: #000;
   color: #ccc;
@@ -405,8 +404,20 @@ main {
   font-size: 12px;
 }
 
-.footer-legal-logoStackPath {
-  width: 20px;
-  height: 15px;
-  padding: 5px;
+.footer-bottom-tnw {
+  display: flex;
+}
+
+.footer-bottom-tnw1 {
+  display: flex;
+}
+
+.footer-bottom .footer-bottom-tnw1 img {
+  width: 60px;
+  margin-left: 5px;
+}
+
+.footer-bottom .footer-bottom-tnw img {
+  width: 40px;
+  margin-right: 5px;
 }
