@@ -90,7 +90,8 @@
     border-left: 0.5px solid #ccc;
     width: 50px;
     height: 50px;
-    background: url("https://api.iconify.design/icons8:search.svg") no-repeat
+    background:
+      url("https://api.iconify.design/icons8:search.svg") no-repeat
       center center / contain;
     background-size: 50%;
   }
@@ -127,7 +128,8 @@
   .hero-section .hero {
     width: 100%;
     font-family: "Rajdhani", sans-serif;
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -194,7 +196,8 @@
   /* .hero-section .side { */
 
   .hero-sectionRight-top {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -210,7 +213,8 @@
   }
 
   .hero-sectionRight-bottom {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -293,7 +297,8 @@
   }
 
   .article-fig-img {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -606,7 +611,8 @@
     border-left: 0.5px solid #ccc;
     width: 50px;
     height: 50px;
-    background: url("https://api.iconify.design/icons8:search.svg") no-repeat
+    background:
+      url("https://api.iconify.design/icons8:search.svg") no-repeat
       center center / contain;
     background-size: 50%;
   }
@@ -639,7 +645,8 @@
 
   .hero-section .hero {
     width: 100%;
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -698,7 +705,8 @@
   /* .hero-section .side { */
 
   .hero-sectionRight-top {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -713,7 +721,8 @@
   }
 
   .hero-sectionRight-bottom {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -860,7 +869,8 @@
   }
 
   .article-fig-img {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
