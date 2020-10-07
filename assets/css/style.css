@@ -10,6 +10,7 @@
   }
 
   h2 {
+    font-family: "Balsamiq Sans", cursive;
     color: #f42;
     font-size: 28px;
     font-weight: 700;
@@ -51,6 +52,16 @@
     background-color: #fff;
   }
 
+  .hero-header-type ul li {
+    display: inline-block;
+    color: #ccc;
+    font-size: 12px;
+  }
+
+  .latest-news-col_1 ul li {
+    padding: 0;
+  }
+
   .ms-navbar .main-navbar li {
     display: inline-block;
     padding: 10px 0 10px 30px;
@@ -64,7 +75,8 @@
     border-left: 0.5px solid #ccc;
     width: 50px;
     height: 50px;
-    background: url("https://api.iconify.design/icons8:search.svg") no-repeat
+    background:
+      url("https://api.iconify.design/icons8:search.svg") no-repeat
       center center / contain;
     background-size: 50%;
   }
@@ -79,12 +91,15 @@
     justify-content: space-between;
   }
 
-  .header li a {
+  .footer-bottom a {
+    color: #fff;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
   }
 
-  .header ul li {
-    list-style-type: none;
+  .header li a {
+    text-decoration: none;
   }
 
   /* Banner Section */
@@ -97,7 +112,9 @@
 
   .hero-section .hero {
     width: 100%;
-    background: linear-gradient(
+    font-family: "Rajdhani", sans-serif;
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -119,17 +136,6 @@
     position: absolute;
   }
 
-  .hero-header-type ul li {
-    display: inline-block;
-    color: #ccc;
-    font-size: 12px;
-  }
-
-  .hero-header-type a {
-    text-decoration: none;
-    color: #ccc;
-  }
-
   .hero-right-section {
     flex: 2;
   }
@@ -145,13 +151,14 @@
     color: #fff;
     text-decoration: none;
     font-size: 50px;
-    font-family: Rajdhani;
+    font-family: "Rajdhani", sans-serif;
   }
 
   /* .hero-section .side { */
 
   .hero-sectionRight-top {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -167,7 +174,8 @@
   }
 
   .hero-sectionRight-bottom {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -219,7 +227,8 @@
   }
 
   .article-fig-img {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -266,12 +275,6 @@
     color: #f42;
   }
 
-  .article-section ul li {
-    list-style: #f42;
-    padding: 5px 0;
-    border-bottom: 0.1px solid #ccc;
-  }
-
   .fig-header {
     position: relative;
     top: 150px;
@@ -285,8 +288,17 @@
   .article-section ul li a {
     color: #5b5b5b;
     text-decoration: none;
-    list-style: #f42;
+    list-style: none;
     padding: 3px;
+  }
+
+  .article-section ul li::before {
+    content: "\2022";
+    color: #f42;
+    font-weight: bold;
+    display: inline-block;
+    width: 0.5em;
+    margin-left: -1em;
   }
 
   /* Latest News section */
@@ -321,6 +333,18 @@
     cursor: pointer;
   }
 
+  .img-flag p {
+    font-size: 14px;
+    font-weight: 700;
+    left: 8px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 20px;
+    width: 100%;
+    transform: rotate(45deg);
+  }
+
   .latest-news-Grid p:hover {
     font-weight: 700;
     line-height: 1.25;
@@ -339,10 +363,6 @@
     font-size: 12px;
     list-style: none;
     margin: 0;
-  }
-
-  .latest-news-col_1 ul li {
-    padding: 0;
   }
 
   .latest-news-col-2 {
@@ -375,7 +395,7 @@
     cursor: pointer;
     color: #000;
     font-size: 1.4rem;
-    font-family: Rajdhani, "Sans Serif";
+    font-family: "Rajdhani", sans-serif;
   }
 
   .latest-detailsGrid .title:hover {
@@ -413,18 +433,6 @@
     top: 0;
     width: 80px;
     z-index: 10;
-  }
-
-  .img-flag p {
-    font-size: 14px;
-    font-weight: 700;
-    left: 8px;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
-    top: 20px;
-    width: 100%;
-    transform: rotate(45deg);
   }
 
   .footer-top {
@@ -471,19 +479,21 @@
     height: 15px;
   }
 
-  .footer-bottom a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-  }
-
   .custom-footer {
     margin-top: 30px;
   }
 }
 
-/* Responsive Area */
+/* Responsive Area *
+*
+*
+*
+*
+
+*
+*
+*
+*/
 
 /* width less than 768 */
 
@@ -525,6 +535,16 @@
     background-color: #fff;
   }
 
+  .header ul li {
+    list-style-type: none;
+  }
+
+  .article-section ul li {
+    list-style: none;
+    padding: 5px 0;
+    border-bottom: 0.1px solid #ccc;
+  }
+
   .ms-navbar .main-navbar li {
     display: inline-block;
     padding: 10px 0 10px 30px;
@@ -539,7 +559,8 @@
     border-left: 0.5px solid #ccc;
     width: 50px;
     height: 50px;
-    background: url("https://api.iconify.design/icons8:search.svg") no-repeat
+    background:
+      url("https://api.iconify.design/icons8:search.svg") no-repeat
       center center / contain;
     background-size: 50%;
   }
@@ -554,59 +575,16 @@
     justify-content: space-between;
   }
 
-  .header li a {
-    text-decoration: none;
-  }
-
-  .header ul li {
-    list-style-type: none;
-  }
-
-  /* Banner Section */
-
-  /* .hero-section {
-    display: flex;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
-  }
-
-  .hero-section .hero {
-    margin-top: 100px;
-    flex: 4;
-  }
-
-  .hero-header-type {
-    top: 5rem;
-    position: absolute;
-  }
-
-  .hero-header-type ul li {
-    display: inline-block;
-    color: #ccc;
-    font-size: 12px;
-  }
-
   .hero-header-type a {
     text-decoration: none;
     color: #ccc;
   }
 
-  .hero-right-section {
-    flex: 2;
-  }
-
-  .hero img {
-    width: 450px;
-    height: 350px;
-    position: relative;
-    top: -110px;
-  }
-
-  .hero h1 a {
-    color: #fff;
+  .header li a {
     text-decoration: none;
-    font-size: 50px;
-    font-family: Rajdhani;
-  } */
+  }
+
+  /* Banner Section */
 
   .hero-section {
     display: flex;
@@ -615,7 +593,8 @@
 
   .hero-section .hero {
     width: 100%;
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -637,17 +616,6 @@
     position: absolute;
   }
 
-  .hero-header-type ul li {
-    display: inline-block;
-    color: #ccc;
-    font-size: 12px;
-  }
-
-  .hero-header-type a {
-    text-decoration: none;
-    color: #ccc;
-  }
-
   .hero-right-section {
     flex: 2;
     margin-top: 90px;
@@ -664,13 +632,14 @@
     color: #fff;
     text-decoration: none;
     font-size: 50px;
-    font-family: Rajdhani;
+    font-family: "Rajdhani", sans-serif;
   }
 
   /* .hero-section .side { */
 
   .hero-sectionRight-top {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -685,7 +654,8 @@
   }
 
   .hero-sectionRight-bottom {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
@@ -816,7 +786,8 @@
   }
 
   .article-fig-img {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
         rgba(0, 0, 0, 0.666),
