@@ -5,6 +5,10 @@
     box-sizing: border-box;
   }
 
+  ul {
+    list-style-type: none;
+  }
+
   .sm-navbar {
     display: none;
   }
@@ -296,9 +300,8 @@
     content: "\2022";
     color: #f42;
     font-weight: bold;
-    display: inline-block;
-    width: 0.5em;
-    margin-left: -1em;
+    display: inline;
+    margin-left: -12px;
   }
 
   /* Latest News section */

@@ -356,9 +356,9 @@ main {
   content: "\2022";
   color: #f42;
   font-weight: 900;
-  display: inline-block;
+  display: inline;
   width: 1em;
-  margin-left: -1em;
+  margin-left: -12px;
 }
 
 /* Footer Section */
