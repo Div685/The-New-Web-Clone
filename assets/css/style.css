@@ -188,7 +188,7 @@
   }
 
   .right-bottom-header {
-    top: 150px;
+    top: 120px;
     position: absolute;
   }
 
@@ -200,7 +200,9 @@
   .right-bottom-header h2 {
     color: #fff;
     bottom: 0;
+    font-size: 24px;
   }
+
   main {
     display: flex;
     flex-direction: column;
@@ -486,131 +488,15 @@
 /* width less than 768 */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Latest News Section */
+  /* Navbar */
 
   .sm-navbar {
     display: none;
   }
 
-  .hero-header-type {
-    top: 5rem;
-    position: absolute;
-  }
-
-  .hero-header-type ul li {
-    display: inline-block;
-    color: #ccc;
-    font-size: 12px;
-  }
-
-  .hero-header-type a {
-    text-decoration: none;
-    color: #ccc;
-  }
-
-  .hero-right-section {
-    flex: 2;
-  }
-
-  .hero img {
-    width: 450px;
-    height: 350px;
-    position: relative;
-    top: -110px;
-  }
-
-  .hero h1 a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 50px;
-    font-family: Rajdhani;
-  }
-
-  .latest-news {
-    padding: 2rem;
-  }
-
-  .latest-news-Grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-  }
-
-  .latest-news-Grid img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .latest-news .latest-news-col_1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .latest-news-col-2 {
-    margin-left: 10px;
-  }
-
-  .latest-news-col-2 p {
-    font-size: 1.3rem;
-    font-weight: 700;
-  }
-
-  /* Latest Details */
-  .latest-details {
-    padding: 2rem;
-  }
-
-  .latest-detailsGrid {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .latest-detailsGrid-col-1 {
-    display: flex;
-  }
-
-  .latest-detailsGrid-col-1 img {
-    width: 75px;
-    height: 75px;
-  }
-
-  .grid-col-1-footer {
-    margin: 0 0 0 10px;
-  }
-
-  .img-flag {
-    display: none;
-  }
-
-  /* wrapper */
-
-  .article-wrapper {
-    display: flex;
-    flex-direction: column;
-    padding: 1.5rem;
-  }
-
-  .article-fig-img {
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0) 50%,
-        rgba(0, 0, 0, 0.666),
-        black
-      ),
-      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
-      url(/assets/img/saly_image1.jpg) center no-repeat;
-    height: 250px;
-    background-size: cover;
-    color: #fff;
-    padding: 15px;
-    position: relative;
-  }
-
   main {
     margin-top: 0;
   }
-
-
 
   .header .ms-navbar {
     display: flex;
@@ -672,12 +558,277 @@
     text-decoration: none;
   }
 
-  .hero-section .hero {
-    margin-top: 60px;
-  }
-
   .header ul li {
     list-style-type: none;
+  }
+
+  /* Banner Section */
+
+  /* .hero-section {
+    display: flex;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+  }
+
+  .hero-section .hero {
+    margin-top: 100px;
+    flex: 4;
+  }
+
+  .hero-header-type {
+    top: 5rem;
+    position: absolute;
+  }
+
+  .hero-header-type ul li {
+    display: inline-block;
+    color: #ccc;
+    font-size: 12px;
+  }
+
+  .hero-header-type a {
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  .hero-right-section {
+    flex: 2;
+  }
+
+  .hero img {
+    width: 450px;
+    height: 350px;
+    position: relative;
+    top: -110px;
+  }
+
+  .hero h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Rajdhani;
+  } */
+
+  .hero-section {
+    display: flex;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+  }
+
+  .hero-section .hero {
+    width: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/car.png) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 540px;
+    padding: 15px;
+    margin: 100px 10px 10px 10px;
+    flex: 4;
+    position: relative;
+  }
+
+  .hero-header-type {
+    top: 20rem;
+    position: absolute;
+  }
+
+  .hero-header-type ul li {
+    display: inline-block;
+    color: #ccc;
+    font-size: 12px;
+  }
+
+  .hero-header-type a {
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  .hero-right-section {
+    flex: 2;
+    margin-top: 90px;
+  }
+
+  .hero img {
+    width: 450px;
+    height: 350px;
+    position: relative;
+    top: -110px;
+  }
+
+  .hero h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Rajdhani;
+  }
+
+  /* .hero-section .side { */
+
+  .hero-sectionRight-top {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/tnw2020-feature.jpg) center no-repeat;
+    background-size: cover;
+    padding: 25px;
+    margin: 10px 10px 0 0;
+    position: relative;
+  }
+
+  .hero-sectionRight-bottom {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/tnw2020-feature.jpg) center no-repeat;
+    background-size: cover;
+    padding: 25px;
+    margin: 10px 10px 0 0;
+    position: relative;
+  }
+
+  .right-top-header {
+    top: 180px;
+    position: absolute;
+  }
+
+  .right-bottom-header {
+    top: 170px;
+    position: absolute;
+  }
+
+  .right-top-header h2 {
+    color: #fff;
+    bottom: 0;
+    font-size: 24px;
+  }
+
+  .right-bottom-header h2 {
+    color: #fff;
+    bottom: 0;
+  }
+
+  /* Latest News Section */
+
+  .latest-news {
+    padding: 2rem;
+  }
+
+  .latest-news-Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .latest-news-Grid img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .latest-news .latest-news-col_1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-news-col-2 {
+    margin-left: 10px;
+  }
+
+  .latest-news-col-2 p {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  /* Latest Details */
+
+  .latest-details {
+    padding: 2rem;
+  }
+
+  .latest-detailsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .latest-detailsGrid-col-1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .latest-detailsGrid-col-1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid-col-1-footer {
+    margin: 0 0 0 10px;
+  }
+
+  .img-flag {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #000;
+    display: block;
+    height: 80px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    z-index: 10;
+  }
+
+  .img-flag p {
+    font-size: 14px;
+    font-weight: 700;
+    left: 8px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 20px;
+    width: 100%;
+    transform: rotate(45deg);
+  }
+
+  /* wrapper */
+
+  .article-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 1.5rem;
+  }
+
+  .article-fig-img {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/saly_image1.jpg) center no-repeat;
+    height: 250px;
+    background-size: cover;
+    color: #fff;
+    padding: 15px;
+    position: relative;
   }
 
   /* Footer */
