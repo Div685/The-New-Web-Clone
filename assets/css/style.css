@@ -1,0 +1,908 @@
+@media only screen and (min-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .sm-navbar {
+    display: none;
+  }
+
+  h2 {
+    font-family: "Balsamiq Sans", cursive;
+    color: #f42;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 10px 0;
+  }
+
+  .icon {
+    font-size: 16px;
+  }
+
+  .main-section {
+    background-color: #ccc;
+  }
+
+  .header .ms-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #ccc;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  }
+
+  .header .ms-navbar .logo {
+    display: none;
+  }
+
+  .header .ms-navbar .top-nav {
+    background-color: #000;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 20px;
+    z-index: 5;
+  }
+
+  .ms-navbar .main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  .hero-header-type ul li {
+    display: inline-block;
+    color: #ccc;
+    font-size: 12px;
+  }
+
+  .latest-news-col_1 ul li {
+    padding: 0;
+  }
+
+  .latest-fund-header ul li {
+    display: flex;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #f42;
+  }
+
+  .ms-navbar .main-navbar li {
+    display: inline-block;
+    padding: 10px 0 10px 30px;
+  }
+
+  .main-navbar a {
+    color: #ccc;
+  }
+
+  .search {
+    border-left: 0.5px solid #ccc;
+    width: 50px;
+    height: 50px;
+    background:
+      url("https://api.iconify.design/icons8:search.svg") no-repeat
+      center center / contain;
+    background-size: 50%;
+    cursor: pointer;
+  }
+
+  .top-nav a {
+    padding: 0 0 0 10px;
+    color: #ccc;
+  }
+
+  .top-navRight ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .header li a {
+    text-decoration: none;
+  }
+
+  /* Banner Section */
+
+  .hero-section {
+    display: flex;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+    margin-top: 90px;
+  }
+
+  .hero-section .hero {
+    width: 100%;
+    font-family: "Rajdhani", sans-serif;
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/car.png) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 510px;
+    padding: 15px;
+    margin: 10px;
+    flex: 4;
+    position: relative;
+  }
+
+  .hero-header-type {
+    top: 20rem;
+    position: absolute;
+  }
+
+  .hero-right-section {
+    flex: 2;
+  }
+
+  .article-fig-footer img {
+    width: 96px;
+    height: 96px;
+  }
+
+  .latest-news-Grid img {
+    width: 100%;
+    cursor: pointer;
+    opacity: 1;
+    height: 100%;
+  }
+
+  .latest-detailsGrid img {
+    width: 100%;
+    opacity: 1;
+    cursor: pointer;
+    height: 100%;
+  }
+
+  .grid-top img {
+    left: 24px;
+  }
+
+  .hero-section .hero img {
+    width: 450px;
+    height: 350px;
+    position: relative;
+    top: -110px;
+    display: block;
+  }
+
+  .hero h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "Rajdhani", sans-serif;
+  }
+
+  /* .hero-section .side { */
+
+  .hero-sectionRight-top {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/tnw2020-feature.jpg) center no-repeat;
+    background-size: cover;
+    height: 250px;
+    padding: 25px;
+    margin: 10px 10px 0 0;
+    position: relative;
+  }
+
+  .hero-sectionRight-bottom {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/tnw2020-feature.jpg) center no-repeat;
+    background-size: cover;
+    height: 250px;
+    padding: 25px;
+    margin: 10px 10px 0 0;
+    position: relative;
+  }
+
+  .right-top-header {
+    top: 180px;
+    position: absolute;
+  }
+
+  .right-bottom-header {
+    top: 120px;
+    position: absolute;
+  }
+
+  .right-top-header h2 {
+    color: #fff;
+    bottom: 0;
+  }
+
+  .right-bottom-header h2 {
+    color: #fff;
+    bottom: 0;
+    font-size: 24px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  /* Latest Fund Section */
+
+  .latest-fund {
+    padding: 1rem 5rem;
+  }
+
+  .latest-fund-Grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+
+  .latest-fund-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .latest-fund-header ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-top .footer-topText li {
+    display: inline-block;
+    padding-top: 20px;
+  }
+
+  .latest-fund-header ul li:last-child {
+    border-right: none;
+  }
+
+  .latest-fund-Grid-col-1:last-child {
+    display: block;
+  }
+
+  /* Article Section  */
+
+  .article-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 5rem;
+  }
+
+  .article-fig-img {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/saly_image1.jpg) center no-repeat;
+    height: 250px;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+  }
+
+  .article-fig-footer {
+    display: flex;
+    margin: 3px 0 0 0;
+    background-color: #fff4f2;
+  }
+
+  .article-fig-footer .title {
+    flex: 3;
+    padding: 12px;
+  }
+
+  .article-fig-footer .title h4 {
+    color: #f42;
+  }
+
+  .article-title-footer {
+    color: #f42;
+  }
+
+  .article-fig-footer .title-img {
+    flex: 1;
+  }
+
+  .article-section ul {
+    padding: 18px;
+    color: #f42;
+  }
+
+  .fig-header {
+    position: relative;
+    top: 150px;
+  }
+
+  .fig-header h3 {
+    color: #fff;
+    font-weight: 900;
+  }
+
+  .article-section ul li a {
+    color: #5b5b5b;
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+  }
+
+  .article-section ul li::before {
+    content: "\2022";
+    color: #f42;
+    font-weight: bold;
+    display: inline;
+    margin-left: -12px;
+  }
+
+  /* Latest News section */
+
+  .latest-news {
+    padding: 5rem;
+  }
+
+  .latest-news h2 {
+    color: #f42;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .latest-news-Grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+
+  .latest-news-Grid p {
+    font-weight: 700;
+    line-height: 1.25;
+    cursor: pointer;
+  }
+
+  .img-flag p {
+    font-size: 14px;
+    font-weight: 700;
+    left: 8px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 20px;
+    width: 100%;
+    transform: rotate(45deg);
+  }
+
+  .latest-news-Grid p:hover {
+    font-weight: 700;
+    line-height: 1.25;
+    color: #f42;
+    text-decoration: underline;
+  }
+
+  .latest-news-col_1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-news-col_1 ul {
+    display: flex;
+    color: #aaa;
+    font-size: 12px;
+    list-style: none;
+    margin: 0;
+  }
+
+  .latest-news-col-2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Latest Details */
+
+  .latest-details {
+    padding: 0 5rem;
+  }
+
+  .latest-detailsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+
+  .latest-detailsGrid .title {
+    font-weight: 700;
+    line-height: 1.25;
+    cursor: pointer;
+    color: #000;
+    font-size: 1.4rem;
+    font-family: "Rajdhani", sans-serif;
+  }
+
+  .latest-detailsGrid .title:hover {
+    font-weight: 700;
+    line-height: 1.25;
+    color: #f42;
+    text-decoration: underline;
+  }
+
+  .grid-col-1-footer {
+    color: #aaa;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 4px;
+    vertical-align: baseline;
+  }
+
+  .latest-detailsGrid-col-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-flag {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #000;
+    display: block;
+    height: 80px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    z-index: 10;
+  }
+
+  .footer-top {
+    background-color: #131313;
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .footer-top i {
+    color: #ccc;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+
+  .footer-topText ul li a {
+    color: #ccc;
+    padding: 0 10px 0 0;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .custom-footer .footer-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .custom-footer {
+    margin-top: 30px;
+  }
+}
+
+/* Responsive Area *
+*
+*
+*
+*
+
+*
+*
+*
+*/
+
+/* width less than 768 */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Navbar */
+
+  .sm-navbar {
+    display: none;
+  }
+
+  main {
+    margin-top: 0;
+  }
+
+  .header .ms-navbar {
+    display: flex;
+    background-color: #fff;
+    color: #ccc;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .header .ms-navbar .top-nav {
+    background-color: #000;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 10px;
+    z-index: 5;
+    font-size: 12px;
+  }
+
+  .ms-navbar .logo {
+    background-color: #000;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+  }
+
+  .ms-navbar .ms-navbar-right {
+    width: 100%;
+  }
+
+  .ms-navbar .main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  .header ul li {
+    list-style-type: none;
+  }
+
+  .article-section ul li {
+    list-style: none;
+    padding: 5px 0;
+    border-bottom: 0.1px solid #ccc;
+  }
+
+  .latest-fund-header ul li {
+    display: flex;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #f42;
+  }
+
+  .ms-navbar .main-navbar li {
+    display: inline-block;
+    padding: 10px 0 10px 10px;
+  }
+
+  .main-navbar a {
+    color: #ccc;
+    font-size: 12px;
+  }
+
+  .search {
+    border-left: 0.5px solid #ccc;
+    width: 50px;
+    height: 50px;
+    background:
+      url("https://api.iconify.design/icons8:search.svg") no-repeat
+      center center / contain;
+    background-size: 50%;
+  }
+
+  .top-nav a {
+    padding: 0 0 0 10px;
+    color: #ccc;
+  }
+
+  .top-navRight ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero-header-type a {
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  .header li a {
+    text-decoration: none;
+  }
+
+  /* Banner Section */
+
+  .hero-section {
+    display: flex;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+  }
+
+  .hero-section .hero {
+    width: 100%;
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/car.png) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 540px;
+    padding: 15px;
+    margin: 100px 10px 10px 10px;
+    flex: 4;
+    position: relative;
+  }
+
+  .hero-header-type {
+    top: 20rem;
+    position: absolute;
+  }
+
+  .hero-right-section {
+    flex: 2;
+    margin-top: 90px;
+  }
+
+  .latest-news-Grid img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .latest-detailsGrid-col-1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid-top img {
+    left: 24px;
+  }
+
+  .hero-section .hero img {
+    width: 400px;
+    height: 320px;
+    position: relative;
+    top: -110px;
+    display: block;
+  }
+
+  .hero h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "Rajdhani", sans-serif;
+  }
+
+  /* .hero-section .side { */
+
+  .hero-sectionRight-top {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/tnw2020-feature.jpg) center no-repeat;
+    background-size: cover;
+    padding: 25px;
+    margin: 10px 10px 0 0;
+    position: relative;
+  }
+
+  .hero-sectionRight-bottom {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/tnw2020-feature.jpg) center no-repeat;
+    background-size: cover;
+    padding: 25px;
+    margin: 10px 10px 0 0;
+    position: relative;
+  }
+
+  .right-top-header {
+    top: 180px;
+    position: absolute;
+  }
+
+  .right-bottom-header {
+    top: 170px;
+    position: absolute;
+  }
+
+  .right-top-header h2 {
+    color: #fff;
+    bottom: 0;
+    font-size: 24px;
+  }
+
+  .right-bottom-header h2 {
+    color: #fff;
+    bottom: 0;
+  }
+
+  /* Latest News Section */
+
+  .latest-news {
+    padding: 2rem;
+  }
+
+  .latest-news-Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .latest-news .latest-news-col_1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-news-col-2 {
+    margin-left: 10px;
+  }
+
+  .latest-news-col-2 p {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  /* Latest Fund */
+
+  .latest-fund-Grid-col-1:last-child {
+    display: none;
+  }
+
+  .latest-fund-Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .latest-fund-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .latest-fund-header ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .latest-fund-header ul li:last-child {
+    border-right: none;
+  }
+
+  /* Latest Details */
+
+  .latest-details {
+    padding: 2rem;
+  }
+
+  .latest-detailsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .latest-detailsGrid-col-1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .grid-col-1-footer {
+    margin: 0 0 0 10px;
+  }
+
+  .img-flag {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #000;
+    display: block;
+    height: 80px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    z-index: 10;
+  }
+
+  .img-flag p {
+    font-size: 14px;
+    font-weight: 700;
+    left: 8px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 20px;
+    width: 100%;
+    transform: rotate(45deg);
+  }
+
+  /* wrapper */
+
+  .article-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 1.5rem;
+  }
+
+  .article-fig-img {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.666),
+        black
+      ),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/saly_image1.jpg) center no-repeat;
+    height: 250px;
+    background-size: cover;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+  }
+
+  /* Footer */
+
+  .custom-footer .footer-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .custom-footer .footer-top i {
+    color: #ccc;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 4px;
+    font-size: 20px;
+  }
+}

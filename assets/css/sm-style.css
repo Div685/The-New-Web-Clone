@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+h2 {
+  font-family: "Balsamiq Sans", cursive;
+  color: #f42;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+.sm-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.logo {
+  background-color: #000;
+  padding: 10px;
+}
+
+.logo img {
+  width: 66px;
+  height: 16px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons .search {
+  padding: 10px;
+  border-left: 0.5px solid #ccc;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.icons .drawer-icon {
+  padding: 10px;
+  color: #f42;
+  border-left: 0.5px solid #ccc;
+}
+
+.ms-navbar {
+  display: none;
+}
+
+/* Banner Section */
+
+main {
+  margin-top: 2.5rem;
+}
+
+.hero-section {
+  padding-top: 1px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+}
+
+.hero-section .hero {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.666),
+      black
+    ),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+    url(/assets/img/car.png) center no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 230px;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+}
+
+.hero-header-type {
+  top: 7rem;
+  position: absolute;
+}
+
+.hero-header-type ul li {
+  display: inline-block;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.hero-header-type a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.hero-header-type h1 a {
+  font-family: "Balsamiq Sans", cursive;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.footer-bottom img {
+  width: 50px;
+  margin-right: 5px;
+  height: 15px;
+}
+
+.article-fig-footer img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.latest-detailsGrid-col-1 img {
+  width: 75px;
+  height: 75px;
+}
+
+.latest-news-Grid img {
+  width: 75px;
+  height: 75px;
+}
+
+.grid-top img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 30px;
+}
+
+.hero-section .hero img {
+  display: none;
+}
+
+/* Banner Side bar  */
+
+.hero-sectionRight-top {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.666),
+      black
+    ),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+    url(/assets/img/tnw2020-feature.jpg) center no-repeat;
+  background-size: cover;
+  height: 230px;
+  padding: 15px;
+  margin: 10px;
+  position: relative;
+}
+
+.hero-sectionRight-bottom {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.666),
+      black
+    ),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+    url(/assets/img/tnw2020-feature.jpg) center no-repeat;
+  background-size: cover;
+  height: 230px;
+  padding: 15px;
+  margin: 10px;
+  position: relative;
+}
+
+.right-top-header {
+  top: 215px;
+  position: absolute;
+}
+
+.right-bottom-header {
+  top: 180px;
+  position: absolute;
+}
+
+.right-top-header h2 {
+  color: #fff;
+  bottom: 0;
+}
+
+.right-bottom-header h2 {
+  color: #fff;
+  bottom: 0;
+}
+
+/* Latest News  */
+
+.latest-news {
+  padding: 20px;
+}
+
+.latest-news-Grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-news-col_1 {
+  display: flex;
+  margin: 8px 0;
+}
+
+.latest-news-col-2 {
+  margin-left: 10px;
+}
+
+.latest-news-col-2 p {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.latest-news-col-2 ul {
+  margin: 10px 0 0 0;
+  display: flex;
+  color: #aaa;
+  font-size: 12px;
+  padding-top: 4px;
+  list-style: none;
+}
+
+.latest-news-col-2 ul li {
+  padding: 0 10px 0 0;
+}
+
+/* Latest Fund */
+
+.latest-fund {
+  padding: 20px;
+}
+
+.latest-fund-Grid-col-1 {
+  margin-bottom: 20px;
+}
+
+.latest-fund-Grid-col-1:last-child {
+  display: none;
+}
+
+.latest-fund-header ul {
+  list-style-type: none;
+  color: #f42;
+  font-family: Rajdhani, sans-serif;
+}
+
+.latest-fund-header {
+  margin-bottom: 20px;
+}
+
+.latest-fund-Grid-header .grid-top {
+  background-color: #f42;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.latest-fund-Grid-header {
+  position: relative;
+}
+
+.latest-fund-Grid-header .grid-bottom {
+  background-color: #fff4f2;
+  color: #000;
+  padding: 10px 16px 10px 110px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.p-footer {
+  color: #aaa;
+  font-size: 10px;
+}
+
+.latest-fund-Grid-body {
+  background-color: #fffaf8;
+}
+
+.latest-fund-Grid-body .grid-body-top {
+  padding: 20px;
+  font-size: 12px;
+  border-bottom: 0.5px solid #ffcdc2;
+}
+
+.latest-fund-Grid-body .grid-body-top .tag {
+  margin-right: 5px;
+}
+
+.article-section ul li a {
+  color: #5b5b5b;
+  text-decoration: none;
+  list-style: none;
+  padding: 3px;
+}
+
+.latest-fund-Grid-body .grid-body-bottom {
+  padding: 20px;
+  font-size: 10px;
+}
+
+.footer-topText ul li a {
+  color: #ccc;
+  padding: 0 10px 0 0;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.latest-fund-Grid-body .grid-body-bottom a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+/* Latest Details */
+
+.latest-details {
+  padding: 20px;
+}
+
+.latest-detailsGrid {
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-detailsGrid-col-1 {
+  display: flex;
+  margin: 8px 0;
+}
+
+.latest-detailsGrid-col-1 .title {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Rajdhani", sans-serif;
+  color: #000;
+}
+
+.grid-col-1-footer {
+  margin: 0 0 0 10px;
+}
+
+.grid-col-1-footer p {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 4px;
+  vertical-align: baseline;
+}
+
+.img-flag {
+  display: none;
+}
+
+/* Article Wrapper */
+
+.article-wrapper {
+  padding: 20px;
+}
+
+.article-fig-img {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.666),
+      black
+    ),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+    url(/assets/img/saly_image1.jpg) no-repeat;
+  height: 250px;
+  color: #fff;
+  padding: 15px;
+  position: relative;
+  background-size: cover;
+}
+
+.article-fig-footer {
+  display: flex;
+  margin: 3px 0 0 0;
+  background-color: #fff4f2;
+}
+
+.article-fig-footer .title {
+  flex: 3;
+  padding: 12px;
+}
+
+.article-fig-footer .title h4 {
+  color: #f42;
+  font-size: 1rem;
+}
+
+.article-title-footer {
+  color: #f42;
+}
+
+.article-fig-footer .title-img {
+  flex: 1;
+}
+
+.article-section ul {
+  padding: 18px;
+  color: #f42;
+}
+
+.article-section ul li {
+  list-style: none;
+  padding: 5px 0;
+  border-bottom: 0.1px solid #ccc;
+}
+
+.fig-header {
+  position: relative;
+  top: 150px;
+}
+
+.fig-header h3 {
+  color: #fff;
+  font-weight: 900;
+}
+
+.article-section ul li::before {
+  content: "\2022";
+  color: #f42;
+  font-weight: 900;
+  display: inline;
+  width: 1em;
+  margin-left: -12px;
+}
+
+/* Footer Section */
+
+.custom-footer {
+  margin-top: 20px;
+}
+
+.footer-top {
+  background-color: #131313;
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-top .footer-topIcon {
+  padding: 0 10px;
+}
+
+.footer-top .footer-topText {
+  padding: 0 10px;
+}
+
+.footer-top .footer-topText li {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.footer-top i {
+  color: #ccc;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  margin: 0 4px;
+  font-size: 12px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 0.7rem;
+}
+
+.footer-bottom-tnw {
+  display: flex;
+}
+
+.footer-bottom-tnw1 {
+  display: flex;
+}
+
+.footer-bottom .footer-bottom-tnw1 img {
+  width: 60px;
+  margin-left: 5px;
+}
+
+.footer-bottom .footer-bottom-tnw img {
+  width: 40px;
+  margin-right: 5px;
+}
