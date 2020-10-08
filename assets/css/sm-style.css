@@ -47,6 +47,7 @@ img {
   padding: 10px;
   border-left: 0.5px solid #ccc;
   color: #aaa;
+  cursor: pointer;
 }
 
 .icons .drawer-icon {
@@ -256,6 +257,10 @@ main {
   margin-bottom: 20px;
 }
 
+.latest-fund-Grid-col-1:last-child {
+  display: none;
+}
+
 .latest-fund-header ul {
   list-style-type: none;
   color: #f42;
@@ -459,6 +464,14 @@ main {
   text-align: center;
 }
 
+.footer-top .footer-topIcon {
+  padding: 0 10px;
+}
+
+.footer-top .footer-topText {
+  padding: 0 10px;
+}
+
 .footer-top .footer-topText li {
   display: inline-block;
   padding-top: 20px;
@@ -469,8 +482,8 @@ main {
   padding: 10px;
   border-radius: 50%;
   background-color: #333;
-  margin: 0 5px;
-  font-size: 16px;
+  margin: 0 4px;
+  font-size: 12px;
 }
 
 .footer-bottom {
@@ -481,8 +494,8 @@ main {
   background-color: #000;
   color: #ccc;
   text-align: center;
-  padding: 40px 3rem;
-  font-size: 12px;
+  padding: 40px 20px;
+  font-size: 0.7rem;
 }
 
 .footer-bottom-tnw {
